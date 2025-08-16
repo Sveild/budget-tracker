@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution items", "Solution items", "{89FFC5BE-D6F5-4459-9718-A1140F848DCE}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+		Directory.Packages.props = Directory.Packages.props
+		global.json = global.json
+		.gitignore = .gitignore
+		.csharpierrc = .csharpierrc
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1DF3705C-1030-4894-9E08-38A58F6D6BAD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{8901FBEE-7213-40D1-91D9-95873E70072C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BudgetTracker.API", "src\Web\BudgetTracker.API\BudgetTracker.API.csproj", "{6FAC24C1-9FA8-4BC5-818F-984622CB4389}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BudgetTracker.Client", "src\Web\BudgetTracker.Client\BudgetTracker.Client.csproj", "{A20C05EC-ADFC-4FD7-826B-7CF26B16BD68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BudgetTracker.Domain", "src\BudgetTracker.Domain\BudgetTracker.Domain.csproj", "{8974DC29-7117-48C7-A1B5-724B555A3060}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BudgetTracker.Application", "src\BudgetTracker.Application\BudgetTracker.Application.csproj", "{9FED40D0-B31F-4244-B604-78E30AFACAAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BudgetTracker.Infrastructure", "src\BudgetTracker.Infrastructure\BudgetTracker.Infrastructure.csproj", "{64B9DFD7-FA8B-4071-A3D3-5E231DCE9BAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6FAC24C1-9FA8-4BC5-818F-984622CB4389}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FAC24C1-9FA8-4BC5-818F-984622CB4389}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FAC24C1-9FA8-4BC5-818F-984622CB4389}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FAC24C1-9FA8-4BC5-818F-984622CB4389}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A20C05EC-ADFC-4FD7-826B-7CF26B16BD68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A20C05EC-ADFC-4FD7-826B-7CF26B16BD68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A20C05EC-ADFC-4FD7-826B-7CF26B16BD68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A20C05EC-ADFC-4FD7-826B-7CF26B16BD68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8974DC29-7117-48C7-A1B5-724B555A3060}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8974DC29-7117-48C7-A1B5-724B555A3060}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8974DC29-7117-48C7-A1B5-724B555A3060}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8974DC29-7117-48C7-A1B5-724B555A3060}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FED40D0-B31F-4244-B604-78E30AFACAAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FED40D0-B31F-4244-B604-78E30AFACAAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FED40D0-B31F-4244-B604-78E30AFACAAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FED40D0-B31F-4244-B604-78E30AFACAAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64B9DFD7-FA8B-4071-A3D3-5E231DCE9BAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64B9DFD7-FA8B-4071-A3D3-5E231DCE9BAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64B9DFD7-FA8B-4071-A3D3-5E231DCE9BAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64B9DFD7-FA8B-4071-A3D3-5E231DCE9BAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8901FBEE-7213-40D1-91D9-95873E70072C} = {1DF3705C-1030-4894-9E08-38A58F6D6BAD}
+		{6FAC24C1-9FA8-4BC5-818F-984622CB4389} = {8901FBEE-7213-40D1-91D9-95873E70072C}
+		{A20C05EC-ADFC-4FD7-826B-7CF26B16BD68} = {8901FBEE-7213-40D1-91D9-95873E70072C}
+		{8974DC29-7117-48C7-A1B5-724B555A3060} = {1DF3705C-1030-4894-9E08-38A58F6D6BAD}
+		{9FED40D0-B31F-4244-B604-78E30AFACAAE} = {1DF3705C-1030-4894-9E08-38A58F6D6BAD}
+		{64B9DFD7-FA8B-4071-A3D3-5E231DCE9BAD} = {1DF3705C-1030-4894-9E08-38A58F6D6BAD}
+	EndGlobalSection
+EndGlobal
