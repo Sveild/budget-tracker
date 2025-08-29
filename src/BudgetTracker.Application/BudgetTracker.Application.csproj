@@ -7,4 +7,7 @@
   <ItemGroup>
     <ProjectReference Include="..\BudgetTracker.Domain\BudgetTracker.Domain.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Authentication\Commands\" />
+  </ItemGroup>
 </Project>

@@ -5,7 +5,7 @@ using BudgetTracker.Application.Common.Interfaces;
 using BudgetTracker.Application.Common.Models;
 using MediatR;
 
-namespace BudgetTracker.Application.Authentication.Register;
+namespace BudgetTracker.Application.Authentication.Commands.Register;
 
 public class RegisterCommandHandler : IRequestHandler<RegisterCommand, Result>
 {

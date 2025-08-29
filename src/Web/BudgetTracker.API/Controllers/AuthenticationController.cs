@@ -1,6 +1,6 @@
 using System.Threading.Tasks;
-using BudgetTracker.Application.Authentication.LogIn;
-using BudgetTracker.Application.Authentication.Register;
+using BudgetTracker.Application.Authentication.Commands.LogIn;
+using BudgetTracker.Application.Authentication.Commands.Register;
 using BudgetTracker.Application.Common.Models;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;

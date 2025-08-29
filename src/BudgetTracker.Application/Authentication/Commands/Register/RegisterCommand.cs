@@ -1,7 +1,7 @@
 ﻿using BudgetTracker.Application.Common.Models;
 using MediatR;
 
-namespace BudgetTracker.Application.Authentication.Register;
+namespace BudgetTracker.Application.Authentication.Commands.Register;
 
 public record RegisterCommand : IRequest<Result>
 {

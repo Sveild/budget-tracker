@@ -1,6 +1,6 @@
 using FluentValidation;
 
-namespace BudgetTracker.Application.Authentication.LogIn;
+namespace BudgetTracker.Application.Authentication.Commands.LogIn;
 
 public class LogInCommandValidator : AbstractValidator<LogInCommand>
 {

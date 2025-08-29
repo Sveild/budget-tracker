@@ -1,9 +1,13 @@
 @inherits LayoutComponentBase
 
 <HeadContent>
-    <RadzenTheme Theme="standard" />
+    <RadzenTheme Theme="material-dark"/>
 </HeadContent>
 
-<RadzenComponents />
+<RadzenComponents/>
 
-@Body
+<RadzenLayout>
+    <RadzenBody>
+        @Body
+    </RadzenBody>
+</RadzenLayout>

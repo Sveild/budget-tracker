@@ -1,1 +1,14 @@
-﻿
+﻿@using BudgetTracker.Client.Constants
+
+<RadzenStack Orientation="Orientation.Vertical" AlignItems="AlignItems.Center" Style="height: 75px">
+    <RadzenStack Orientation="Orientation.Horizontal" JustifyContent="JustifyContent.Center" class="rz-my-auto" Style="width: 100%">
+        <RadzenText TextStyle="TextStyle.H5" TagName="TagName.H5">
+            BudgetTracker
+        </RadzenText>
+    </RadzenStack>
+</RadzenStack>
+
+<RadzenPanelMenu>
+    <RadzenPanelMenuItem Text="Home" Icon="home" Click="@(() => Navigateto(AppRoutes.Home))"/>
+    <RadzenPanelMenuItem Text="Categories" Icon="dashboard" Click="@(() => Navigateto(AppRoutes.Categories))"/>
+</RadzenPanelMenu>

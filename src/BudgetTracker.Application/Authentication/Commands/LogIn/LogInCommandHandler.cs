@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using BudgetTracker.Application.Common.Interfaces;
 using MediatR;
 
-namespace BudgetTracker.Application.Authentication.LogIn;
+namespace BudgetTracker.Application.Authentication.Commands.LogIn;
 
 public class LogInCommandHandler : IRequestHandler<LogInCommand, LogInResult>
 {

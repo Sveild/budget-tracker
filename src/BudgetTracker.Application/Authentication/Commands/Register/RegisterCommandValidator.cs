@@ -1,6 +1,6 @@
 ﻿using FluentValidation;
 
-namespace BudgetTracker.Application.Authentication.Register;
+namespace BudgetTracker.Application.Authentication.Commands.Register;
 
 public class RegisterCommandValidator : AbstractValidator<RegisterCommand>
 {

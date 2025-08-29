@@ -1,6 +1,6 @@
 using MediatR;
 
-namespace BudgetTracker.Application.Authentication.LogIn;
+namespace BudgetTracker.Application.Authentication.Commands.LogIn;
 
 public class LogInCommand : IRequest<LogInResult>
 {
